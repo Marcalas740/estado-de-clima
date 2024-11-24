@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación del Clima</title>
+    <link rel="stylesheet" href="/css/index8.css">
+</head>
+<body>
+    <div class="app-container">
+        <h1>Aplicación del Clima</h1>
+        <input type="text" id="city-input" placeholder="Ingrese el nombre de la ciudad">
+        <button id="search-button">Buscar Clima</button>
+        <div id="weather-info" class="hidden">
+            <h2 id="city-name"></h2>
+            <p>Temperatura: <span id="temperature"></span>°C</p>
+            <p>Clima: <span id="weather-description"></span></p>
+            <p>Humedad: <span id="humidity"></span>%</p>
+            <p>Viento: <span id="wind-speed"></span> km/h</p>
+        </div>
+        <div id="error-message" class="hidden"></div>
+    </div>
+    <script src="/js/index8.js"></script>
+</body>
+</html>
